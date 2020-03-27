@@ -1,3 +1,4 @@
+
 import { CoreModule } from './core/core.module';
 import { PessoasModule } from './pessoas/pessoas.module';
 import { LancamentosModule } from './lancamentos/lancamentos.module';
@@ -9,13 +10,11 @@ import { NgModule, } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-import { MessageComponent } from './message/message.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    MessageComponent
+    AppComponent
   ],
   imports: [
     CoreModule,
@@ -24,7 +23,7 @@ import { MessageComponent } from './message/message.component';
     BrowserModule,
 
     LancamentosModule,
-    PessoasModule,
+    PessoasModule
   ],
   providers: [],
   bootstrap: [AppComponent]

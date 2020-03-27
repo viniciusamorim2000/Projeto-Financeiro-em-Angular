@@ -1,3 +1,4 @@
+import { SharedModule } from './../shared/shared.module';
 import { LancamentosGridComponent } from './lancamentos-grid/lancamentos-grid.component';
 import { LancamentoCadastroComponent } from './lancamento-cadastro/lancamento-cadastro.component';
 import { NgModule } from '@angular/core';
@@ -41,6 +42,7 @@ import { InputMaskModule } from 'primeng/components/inputmask/inputmask';
     CurrencyMaskModule,
     InputMaskModule,
     FormsModule,
+    SharedModule
   ],
   exports:[
     LancamentoCadastroComponent,
